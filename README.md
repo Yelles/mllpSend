@@ -8,6 +8,7 @@ swift 5 CLI streamable command sending one message HL7 using protocol TCP MLLP (
                                       > stdout
 
 returns 0 in case of successfull sending
+
 returns 255 in case of error detected (in which case the error is described in the stdout)
 
 ## charset =
