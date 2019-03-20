@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "mllp",
+        "repositoryURL": "https://github.com/opendicom/mllp.git",
+        "state": {
+          "branch": null,
+          "revision": "5501bc71d46ba13996eb6add35307976eaafab07",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
