@@ -3,12 +3,10 @@
 swift 5 CLI streamable command sending one message HL7 using protocol TCP MLLP (not encrypted)
 
 ## syntax
-
-   stdin > 
    
-           mllpSend ip:port [charset] 
-           
-                                      > stdout
+    stdin >
+            mllpSend ip:port [charset] 
+                                        > stdout
 
 - returns 0 in case of successfull sending
 - returns 255 in case of error detected (in which case the error is described in the stdout)
@@ -33,15 +31,15 @@ swift 5 CLI streamable command sending one message HL7 using protocol TCP MLLP (
 looks like this:
 
 
- {
+{
  
-   "Message" : "O01",
+    "Message" : "O01",
    
-   "Version" : "2.3.1",
+    "Version" : "2.3.1",
    
-   "Params"  :
-   
-   {
+    "Params"  :
+ 
+    {
    
     "sendingRisName" :                  "sendingRisName"
     
